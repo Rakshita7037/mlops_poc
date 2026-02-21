@@ -1,0 +1,22 @@
+artifact_path: /Users/rakshitasingh/Desktop/mlops/notebooks/mlruns/1/models/m-4462441ceb6b4f1f97c5238680ac7a0f/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.19
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.9.0
+model_id: m-4462441ceb6b4f1f97c5238680ac7a0f
+model_size_bytes: 230771
+model_uuid: m-4462441ceb6b4f1f97c5238680ac7a0f
+prompts: null
+run_id: f4380ef904f94f3d869f1950dbb3e378
+utc_time_created: '2026-02-19 19:06:31.378228'
